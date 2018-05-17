@@ -28,6 +28,39 @@
       "imdb_id": "nm0000226",
       "homepage": "http://www.willsmith.com/"
     }
+    
+  },
+  
+  "Eduard Efren Arango": {
+    "type-query": "GET",
+    "query": "http://api.themoviedb.org/3/search/movie?api_key=0ca9ba5dc7030b0c10b24d60533cb44d&query=baby%20driver",
+    "TMDB-section": "SEARCH",
+    "response": {
+      "page": 1,
+      "total_results": 1,
+      "total_pages": 1,
+      "results": [
+        {
+          "vote_count": 4964,
+          "id": 339403,
+          "video": false,
+          "vote_average": 7.4,
+          "title": "Baby Driver",
+          "popularity": 20.679524,
+          "poster_path": "/dN9LbVNNZFITwfaRjl4tmwGWkRg.jpg",
+          "original_language": "en",
+          "original_title": "Baby Driver",
+          "genre_ids": [
+            28,
+            80
+          ],
+          "backdrop_path": "/goCvLSUFz0p7k8R10Hv4CVh3EQv.jpg",
+          "adult": false,
+          "overview": "After being coerced into working for a crime boss, a young getaway driver finds himself taking part in a heist doomed to fail.",
+          "release_date": "2017-06-28"
+        }
+      ]
+    }
   }
 
 }
